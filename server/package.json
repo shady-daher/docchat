@@ -8,10 +8,15 @@
     "start": "node index.js"
   },
   "dependencies": {
+    "@google/genai": "^3.6.1",
+    "@neondatabase/serverless": "^1.2.1",
+    "@prisma/adapter-neon": "^6.19.3",
     "@prisma/client": "^6.19.3",
     "bcrypt": "^6.0.0",
     "express": "^5.1.0",
     "express-session": "^1.19.0",
+    "multer": "^2.5.0",
+    "pdf-parse": "^1.1.1",
     "prisma": "^6.19.3"
   },
   "allowScripts": {
